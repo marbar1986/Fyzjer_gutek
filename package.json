@@ -17,7 +17,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "minimatch": "^3.0.2"
   },
   "bugs": {
     "url": "https://github.com/marbar1986/Fyzjer_gutek/issues"
