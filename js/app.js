@@ -54,6 +54,16 @@ if($(window).width() > 700){
     $(".gallery__item").css("width","8%");
     $(".gallery__item").css("transition-duration","1s");
   })
+  $(".gallery__item").on("touchstart",function(){
+    $(".gallery__item").css("width","6%");
+    $(".gallery_item").css("transition-duration","1s");
+    $(this).css("width","26%");
+    $(this).css("transition-duration","1s");
+  })
+  $(".gallery__item").on("touchend",function(){
+    $(".gallery__item").css("width","8%");
+    $(".gallery__item").css("transition-duration","1s");
+  })
 }else{
   $(".gallery__item").on("touchstart",function(){
       $(".gallery_item").css("transition-duration","1s");
