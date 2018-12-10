@@ -105,11 +105,21 @@ for (i = 0; i < list.length; i++) {
     close.addClass("fullScreen4");
     list.css("height","625px");
     list.css("width","100%");
+    list.css("background-size","100% 100%");
+    list.css("background-position","center center");
     $(".gallery__item").on("mouseenter",function(){
       $(".gallery__item").css("width","100%");
     })
     $(".gallery__item").on("mouseleave",function(){
       $(".gallery__item").css("width","100%");
+    })
+    $(".gallery__item").on("touchstart",function(){
+        $(this).css("height","625px");
+        $(this).css("width","100%");
+    })
+    $(".gallery__item").on("touchend",function(){
+      $(this).css("width","100%");
+        $(this).css("height","625px");
     })
     list[picture].classList.add("visible"); // dodowanie klasy do elementu
     prev.on("click", function() {
