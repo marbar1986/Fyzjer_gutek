@@ -55,17 +55,15 @@ if($(window).width() > 700){
     $(".gallery__item").css("transition-duration","1s");
   })
 }else{
-  $(".gallery__item").on("mouseenter",function(){
-    $(".gallery__item").css("width","80%");
-    $(".gallery__item").css("height","50px");
-    $(".gallery_item").css("transition-duration","1s");
-    $(this).css("height","150px");
-    $(this).css("transition-duration","1s");
+  $(".gallery__item").on("touchstart",function(){
+      $(".gallery_item").css("transition-duration","1s");
+      $(this).css("height","200px");
+      $(this).css("transition-duration","1s");
   })
-  $(".gallery__item").on("mouseleave",function(){
+  $(".gallery__item").on("touchend",function(){
     $(".gallery__item").css("width","80%");
-    $(".gallery__item").css("transition-duration","1s");
-    $(this).css("height","50px");
+      $(".gallery__item").css("transition-duration","1s");
+      $(this).css("height","50px");
   })
 }
 
