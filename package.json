@@ -25,5 +25,7 @@
     "url": "https://github.com/marbar1986/Fyzjer_gutek/issues"
   },
   "homepage": "https://github.com/marbar1986/Fyzjer_gutek#readme",
-  "dependencies": {}
+  "dependencies": {
+    "yargs-parser": "^13.1.2"
+  }
 }
