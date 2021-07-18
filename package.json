@@ -13,11 +13,12 @@
   "author": "marcin barys",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
+    "glob-parent": "^5.1.2",
+    "gulp": "^4.0.1",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "jquery": "^3.5.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash.mergewith": "^4.6.2",
     "minimatch": "^3.0.2"
   },
